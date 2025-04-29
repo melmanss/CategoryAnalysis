@@ -11,7 +11,9 @@ public class Main {
                 new Product("Laptop", "Electronics", 1200.0),
                 new Product("Coffee Maker", "Appliances", 80.0),
                 new Product("Blender", "Appliances", 50.0),
-                new Product("Smartphone", "Electronics", 800.0)
+                new Product("Smartphone", "Electronics", 800.0),
+                new Product("Television", "Electronics", 600.0),
+                new Product("Microwave", "Appliances", 80.0)
         );
 
         Map<String, Double> averagePriceByCategory = products.stream()
